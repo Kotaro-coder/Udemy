@@ -4,7 +4,7 @@
 
 ```bash
 # get repository
-git clone https://github.com/<user>/<repo>.git
+git clone https://github.com/Kotaro-coder/Udemy.git
 cd <repo>
 
 # start infrastructure (Postgres)
@@ -17,8 +17,8 @@ npm install
 npx prisma migrate dev --name init   # first time only
 npm run start:dev            # http://localhost:3000/graphql
 
-# frontend setup and launch（in another tab）
-cd ../frontend
+# frontend setup and launch in another tab
+cd ../frontend 
 npm install
 npm run dev                  # http://localhost:5173
 ```
@@ -29,19 +29,19 @@ npm run dev                  # http://localhost:5173
 - **React** (v19.x)
 - **Vite**
 - **TypeScript**
-- **Apollo Client**：GraphQL クライアント（useQuery など）
-- **MUI (Material UI)**：マテリアルデザイン対応 UI コンポーネント
+- **Apollo Client**：GraphQL Client
+- **MUI (Material UI)**：Material Design Support React UI flamework
 
 ### Backend
 - **NestJS** (v10.x)
-- **GraphQL (code-first)**：スキーマ駆動 API 設計
+- **GraphQL (code-first)**：API Design
 
-### API / 認証
-- **Passport.js**：JWT 認証 / 認可ロジック（NestJS 統合）
+### API / Certification
+- **Passport.js**：JWT Certification
 
 ### Database / ORM
-- **PostgreSQL** (v15)：永続化用 DB
-- **Prisma** (v6)：DB スキーマ管理 & マイグレーション
+- **PostgreSQL** (v15)：Relational Database Management System
+- **Prisma** (v6)：DB Schema Management & Migration
 
 ### Infrastructure
-- **Docker / Docker Compose**：ローカル開発環境・DB 起動用
+- **Docker / Docker Compose**：For DB Startup
