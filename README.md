@@ -25,23 +25,10 @@ npm run dev                  # http://localhost:5173
 
 ##  Technology Stacks
 
-### Frontend
-- **React** (v19.x)
-- **Vite**
-- **TypeScript**
-- **Apollo Client**：GraphQL Client
-- **MUI (Material UI)**：Material Design Support React UI flamework
-
-### Backend
-- **NestJS** (v10.x)
-- **GraphQL (code-first)**：API Design
-
-### API / Certification
-- **Passport.js**：JWT Certification
-
-### Database / ORM
-- **PostgreSQL** (v15)：Relational Database Management System
-- **Prisma** (v6)：DB Schema Management & Migration
-
-### Infrastructure
-- **Docker / Docker Compose**：For DB Startup
+| Technology | Tools / Libraries |
+| --- | --- |
+| Frontend | React,Vite,Typescript, Apollo Client,MUI |
+| Backend | NestJS,GraphQL(code-first) |
+| API / Certification | Passport.js |
+| Database / ORM | PostgreSQL Prisma |
+| Infrastructure | Docker / Docker Compose | 
