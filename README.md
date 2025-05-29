@@ -1,5 +1,5 @@
 # Task Management APP (GraphQL + NestJS + React)
-ここのcommitを取り消すrevert pull reqestに挑戦
+
 ## Environment Setup
 
 ```bash
